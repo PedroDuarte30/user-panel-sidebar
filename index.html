@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Panel Sidebar</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="src/css/styles.css" />
+</head>
+<body>
+
+  <aside class="sidebar collapsed" id="sidebar">
+    <div class="sidebar-header" id="toggle-btn">
+      <div class="avatar">PD</div>
+      <div class="user-details">
+        <span class="user-name">Pedro Duarte</span>
+        <span class="user-role">Developer</span>
+      </div>
+    </div>
+
+    <div class="search-box">
+      <i class="bx bx-search icon"></i>
+      <input type="text" placeholder="Search..." />
+    </div>
+
+    
+    <ul class="menu-list">
+      <li class="menu-item active">
+        <i class="bx bx-grid-alt icon"></i>
+        <span class="link-name">Dashboard</span>
+      </li>
+      <li class="menu-item">
+        <i class="bx bx-user icon"></i>
+        <span class="link-name">My Profile</span>
+      </li>
+      <li class="menu-item">
+        <i class="bx bx-folder icon"></i>
+        <span class="link-name">Projects</span>
+      </li>
+      <li class="menu-item">
+        <i class="bx bx-bar-chart-alt-2 icon"></i>
+        <span class="link-name">Analytics</span>
+      </li>
+      <li class="menu-item">
+        <i class="bx bx-message-square-detail icon"></i>
+        <span class="link-name">Messages</span>
+      </li>
+      <li class="menu-item">
+        <i class="bx bx-cog icon"></i>
+        <span class="link-name">Settings</span>
+      </li>
+    </ul>
+  </aside>
+
+  <script src="src/js/main.js"></script>
+</body>
+</html>
